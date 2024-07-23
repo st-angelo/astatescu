@@ -20,6 +20,26 @@
       "isContainer": true
     },
     {
+      "title": "Academyyy",
+      "id": "academy",
+      "environments": [
+        "dev",
+        "preview",
+        "live"
+      ],
+      "event": "academy2"
+    },
+    {
+      "title": "To Hello And Beyond",
+      "id": "to-hello",
+      "environments": [
+        "dev",
+        "preview",
+        "live"
+      ],
+      "event": "to-hello"
+    },
+    {
       "containerId": "tools",
       "id": "localize",
       "title": "Localize",
