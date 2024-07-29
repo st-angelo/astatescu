@@ -27,13 +27,13 @@ export default async function init(el) {
     disclaimer: getLabel(content[10]),
     submit: getLabel(content[11]),
   };
-  console.log(labels);
+
   const { createTag } = await import(`${miloLibs}/utils/utils.js`);
 
   const container = createTag('div', { class: 'test-form-container' });
   const title = createTag('h3', { class: 'test-form-title' }, labels.title);
 
-  const form = createTag('form', { class: 'test-form dark' });
+  const form = createTag('form', { class: 'test-form' });
 
   const firstName = createTag('div', { class: 'test-form-control', 'data-size': 6 });
   const firstNameLabel = createTag(
