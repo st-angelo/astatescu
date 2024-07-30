@@ -1,3 +1,3 @@
 export default function init() {
-  window.location.href = `${window.location.protocol}//${window.location.host}/drafts/hello`;
+  window.location.href = `${window.location.protocol}//${window.location.host}/drafts/acom-widget`;
 }
